@@ -19,7 +19,8 @@ namespace WcfTest
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
-        // TODO: Add your service operations here
+        [OperationContract]
+        string TestConnection();
     }
 
 

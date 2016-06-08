@@ -29,5 +29,10 @@ namespace WcfTest
             }
             return composite;
         }
+
+        public string TestConnection()
+        {
+            return "Ok!";
+        }
     }
 }
